@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title><%- title %></title>
+
+    <link rel="icon" href=<%- logo %>>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#join').click(function(e) {
+                window.location.replace(`${window.location.href}call/${$('#room_id').val()}`);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="roomConnect">
+        <input id="room_id" type="text" placeholder="Room Name/id">
+        <button id="join">Join room</button>
+    </div>
+</body>
+</html>

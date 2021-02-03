@@ -15,6 +15,6 @@
     "fs": "0.0.1-security",
     "http": "0.0.1-security",
     "pem": "^1.14.4",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.4.1"
   }
 }

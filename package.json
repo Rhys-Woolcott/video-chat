@@ -12,7 +12,7 @@
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "fs": "0.0.1-security",
+    "fs": "0.0.2",
     "http": "0.0.1-security",
     "pem": "^1.14.4",
     "socket.io": "^3.0.0"
